@@ -1,0 +1,39 @@
+# Information
+# ===========
+title:              Tunieva Photography
+author:             Inessa Tunieva
+description:        Photography website of Inessa Tunieva
+url:                innatunieva.github.io
+email:              tunievaphotography@gmail.com
+github_username:    innatunieva
+# Build
+# ===========
+# Options used by jekyll to build the website (in ./_site)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+# Include SEO tags in heads of htmls
+include: # Files to be included
+  - assets/
+exclude: # Files that will not be processed
+# Default:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+# ./_draft is excluded by default
+# User defined:
+  - LICENSE
+  - CHANGELOG
+  - README
+markdown:   kramdown # Markdown renderer (transforms md to html)
+# See https://kramdown.gettalong.org/
+# Github pages overrides any option by kramdown.
+kramdown:
+    input:      GFM # Markdown processor for Kramdown that is used by github pages

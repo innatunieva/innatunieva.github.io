@@ -1,0 +1,13 @@
+{% assign gallery-menu-properties = include %}
+<div class="gallery-menu">
+  {% for pg in site.pages %}
+    {% if pg.dir == gallery-menu-properties.directory %}
+    <a href="{{ pg.url }}" class="gallery-menu-item">
+         <h1>{{ pg.front-title }}</h1>
+         <div class="gallery-menu-item-img-container">
+         <img src="{{ pg.front-image }}">
+         </div>
+    </a>
+    {% endif %}
+  {% endfor %}
+</div>

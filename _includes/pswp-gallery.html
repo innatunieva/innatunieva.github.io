@@ -1,0 +1,32 @@
+{% assign pswp-gallery-properties = include %}
+<script type="module">
+      import PhotoSwipeLightbox from '/photoswipe/dist/photoswipe-lightbox.esm.js';
+      const lightbox = new PhotoSwipeLightbox({
+      gallery: '#{{ pswp-gallery-properties.name }}',
+      children: 'a',
+      pswpModule: () => import('/photoswipe/dist/photoswipe.esm.js')
+    });
+    lightbox.init();
+</script>
+ <div class="pswp-gallery" id="{{ pswp-gallery-properties.name }}">
+            {% for file in site.static_files %}
+            {% assign filepathwithoutextension = file.path | replace: file.extname,"" %}
+                {% assign filenameparts = filepathwithoutextension | split: "/" %}
+                {% assign filename = filenameparts[-1] %}
+                {% assign dirpath = filepathwithoutextension | replace: filename,"" %}
+                {% if dirpath == pswp-gallery-properties.directory %}
+                  {% assign pieces = filename | split: "_" %}
+                  {% if pieces[-1] != "thumb" %}
+                    {% assign proportions = pieces[-1] | split: "x" %}
+                    {% assign width = proportions[0] %}
+                    {% assign height = proportions[1] %}
+                    {% assign thumb-file = filepathwithoutextension | append: "_thumb" | append: file.extname %}
+                        <a  href="{{ file.path }}"
+                            data-pswp-width="{{ width }}"
+                            data-pswp-height="{{ height }}">
+                          <img src="{{ thumb-file }}"/>
+                        </a>
+                  {% endif %}
+                {% endif %}
+            {% endfor %}
+</div>
