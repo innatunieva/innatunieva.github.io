@@ -6,7 +6,8 @@ strip-title:   Tunieva Photography
 ---
 {% include begin-narrow-content.html %}
 {% include social-bar.html %}
-
+!Alt Text
+/assets/images/CzechRepublic_front.jpg
 # Inessa Tuniveva
 
 Hi there! My name is Inessa Tunieva, and I’m a self-taught photographer based in Hamburg. I come from [Armenia](https://en.wikipedia.org/wiki/Armenia) and moved to EU for studying in 2019. Before that I worked in different fields mostly related to finance.  I have a keen interest in mathematics, which I try to incorporate into my photography by implementing the golden ratio.
