@@ -9,3 +9,5 @@ strip-title:        Golden Ratio
 ---
 {% include vertical-delimiter.html%}
 {% include pswp-gallery.html name = page.nav-name directory = page.gallery-directory %}
+
+To be updated...
