@@ -1,7 +1,7 @@
 ---
 layout:             page
 nav-name:           windsurfing
-gallery-directory:  /Projects/Windsurfing/
+gallery-directory:  /Gallery/Windsurfing/
 front-image:        /assets/images/Windsurfing_front.jpg
 front-title:        Windsurfing
 strip-image:        /assets/images/Windsurfing_strip.jpg
