@@ -12,7 +12,7 @@ strip-title:            Germany
 
 {% include vertical-delimiter.html%}
 ## [Hamburg](https://de.wikipedia.org/wiki/Hamburg)
-{% include pswp-gallery.html name = "Lagos" directory = "/Gallery/Germany/Hamburg/" %}
+{% include pswp-gallery.html name = "Hamburg" directory = "/Gallery/Germany/Hamburg/" %}
 
 {% include vertical-delimiter.html%}
 ## [Helgoland](https://de.wikipedia.org/wiki/Helgoland)
