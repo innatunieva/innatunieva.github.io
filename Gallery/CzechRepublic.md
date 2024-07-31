@@ -14,4 +14,6 @@ strip-title:            Czech Republic
 ## [South Bohemian Region](https://en.wikipedia.org/wiki/South_Bohemian_Region)
 {% include pswp-gallery.html name = "SouthBohemia" directory = "/Gallery/CzechRepublic/SouthBohemia/" %}
 
-
+{% include vertical-delimiter.html%}
+## [Vitkuv Castle]()
+{% include pswp-gallery.html name = "Vitkuv castle" directory = "/Gallery/CzechRepublic/Vitkuv Castle/" %}
