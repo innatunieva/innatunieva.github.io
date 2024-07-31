@@ -16,4 +16,4 @@ strip-title:            Czech Republic
 
 {% include vertical-delimiter.html%}
 ## [Vitkuv Castle]()
-{% include pswp-gallery.html name = "Vitkuv castle" directory = "/Gallery/CzechRepublic/Vitkuv Castle/" %}
+{% include pswp-gallery.html name = "VitkuvCastle" directory = "/Gallery/CzechRepublic/VitkuvCastle/" %}
