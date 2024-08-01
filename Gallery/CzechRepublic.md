@@ -17,3 +17,8 @@ strip-title:            Czech Republic
 {% include vertical-delimiter.html%}
 ## [Vitkuv Castle]()
 {% include pswp-gallery.html name = "VitkuvCastle" directory = "/Gallery/CzechRepublic/VitkuvCastle/" %}
+
+{% include vertical-delimiter.html%}
+## [Lipno Reservoir and Frimburg](https://en.wikipedia.org/wiki/Lipno_Reservoir)
+{% include pswp-gallery.html name = "Lipno" directory = "/Gallery/CzechRepublic/Lipno/" %}
+
