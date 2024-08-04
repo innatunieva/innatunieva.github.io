@@ -15,10 +15,10 @@ strip-title:            Czech Republic
 {% include pswp-gallery.html name = "SouthBohemia" directory = "/Gallery/CzechRepublic/SouthBohemia/" %}
 
 {% include vertical-delimiter.html%}
-## [Vitkuv Castle]()
+## [Vitkuv Castle or Vítkův hrádek](https://de.wikipedia.org/wiki/V%C3%ADtk%C5%AFv_hr%C3%A1dek)
 {% include pswp-gallery.html name = "VitkuvCastle" directory = "/Gallery/CzechRepublic/VitkuvCastle/" %}
 
 {% include vertical-delimiter.html%}
-## [Lipno Reservoir and Frimburg](https://en.wikipedia.org/wiki/Lipno_Reservoir)
+## [Lipno Reservoir and ](https://en.wikipedia.org/wiki/Lipno_Reservoir)[Frymburk nad Vltavou](https://de.wikipedia.org/wiki/Frymburk_nad_Vltavou)
 {% include pswp-gallery.html name = "Lipno" directory = "/Gallery/CzechRepublic/Lipno/" %}
 
