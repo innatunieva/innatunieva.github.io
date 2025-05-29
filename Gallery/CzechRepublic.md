@@ -9,6 +9,9 @@ strip-title:            Czech Republic
 ---
 {% include pswp-gallery.html name = page.nav-name directory = page.gallery-directory %}
 
+{% include vertical-delimiter.html%}
+## [Prague](https://en.wikipedia.org/wiki/Prague)
+{% include pswp-gallery.html name = "Prague" directory = "/Gallery/CzechRepublic/Prague/" %}
 
 {% include vertical-delimiter.html%}
 ## [South Bohemian Region](https://en.wikipedia.org/wiki/South_Bohemian_Region)

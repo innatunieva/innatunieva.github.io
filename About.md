@@ -2,11 +2,11 @@
 layout:       page
 nav-name:     about
 strip-image:  /assets/images/About_strip.jpg
-strip-title:   Tunieva Photography
+strip-title:   Hajek Photography
 ---
 {% include begin-narrow-content.html %}
 {% include social-bar.html %}
-# Inessa Tunieva
+# Inessa Hajek
 
 Hi there! I am Inessa, a self-taught photographer based in Hamburg. I’m always on the lookout for new and exciting ways to capture the beauty of the world through my lens. Whether it’s a stunning landscape, a majestic animal, or a beautiful person, I’m always ready to snap a photo and share it with the world.
 

@@ -2,7 +2,7 @@
 layout:         page
 nav-name:       contact
 strip-image:    /assets/images/Contact_strip.jpg
-strip-title:     Tunieva Photography
+strip-title:     Hajek Photography
 ---
 {% include begin-narrow-content.html %}
 # Get in touch
